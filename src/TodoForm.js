@@ -70,7 +70,6 @@ function TodoForm() {
                 onChange={(e) => settextTodo(e.target.value)}
                 style={textareaStyle}
             />
-≈
             <button
                 type="button"
                 onClick={() => setOpenModal(false)}

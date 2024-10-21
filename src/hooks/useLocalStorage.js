@@ -4,6 +4,7 @@ function useLocalStorage(key, initialValue) {
   const [item, setItem] = useState(initialValue);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
+  
   useEffect(() => {
     setTimeout(() => {
       try {
